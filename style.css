@@ -1,0 +1,10 @@
+body{
+    padding: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+#login-form{
+    margin-top: 50px;
+    box-shadow: 5px 5px 10px rgb(190, 190, 190);
+    padding: 40px;
+    border-radius: 10px;
+}
