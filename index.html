@@ -77,7 +77,9 @@
         // Withdraw button event handler
         const withdrawButton = document.getElementById("addWithdraw").addEventListener("click", function(){
             const withdrawNumber = getInputNumber("withdrawAmount");
-            console.log(withdrawNumber);
+            updateSpanText("currentWithdraw", withdrawNumber);
+            document.getElementById("withdrawAmount").value = "";
+            updateSpanText("currentBalance", -1 * withdrawNumber);
         });
 
         function getInputNumber(id){
