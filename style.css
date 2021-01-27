@@ -8,3 +8,22 @@ body{
     padding: 40px;
     border-radius: 10px;
 }
+#transaction-area{
+    display: none;
+}
+.bank-transfer{
+    margin: 0px 30px;
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+}
+.deposit{
+    background-color: slateblue;
+}
+.withdraw{
+    background-color: lightsalmon;
+}
+.balance{
+    background-color: orange;
+}
